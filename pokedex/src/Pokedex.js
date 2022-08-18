@@ -27,7 +27,7 @@ class Pokedex extends React.Component {
   render () {
 
     const { pokePosition, filter } = this.state;
-    // PokemonElementes eh array de elementos html
+    // PokemonElementes eh array de elementos html. teste
     // const pokeHTMLElements = pokeData.map((pokemon) => <Pokemon key={pokemon.id} pokeElement={pokemon} />)
     const filteredType = pokeData.filter(pokemon => pokemon.type.includes(filter))
       .map((pokemon) => <Pokemon key={pokemon.id} pokeElement={pokemon} />)
